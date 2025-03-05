@@ -1,6 +1,10 @@
 
 
-generate_sequence_table <- function(species, similarity, gene_length, nucleotides, num_genes){
+generate_sequence_table <- function(species, similarity, gene_length, nucleotides, num_genes, rseed = sample(1:1000, size = 1)){
+  
+  # --- option to set random seed if want to keep results consistent
+  set.seed(rseed)
+  
   genes <- data.frame(matrix(ncol = 5, nrow = 0))
   for (times in 1:num_genes){
     human_gene <- ''
@@ -41,6 +45,6 @@ gene_length <- 16
 nucleotides <- c('A', 'T', 'C', 'G')
 
 
-temp <- generate_sequence_table(species, similarity, gene_length = 16, nucleotides, num_genes = 5)
+temp <- generate_sequence_table(species, similarity, gene_length = 16, nucleotides, num_genes = 5, rseed = 100)
 
-write_tsv(temp, 'sample_sequence_table.tsv')
+write.table(temp, 'sample_sequence_table.tsv')

@@ -1,5 +1,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://hub.2i2c.mybinder.org/user/uccombo-phylogenetics-hhi5aq9x/lab)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCCOMBO/Phylogenetics/HEAD)
+
 Instructions: 
 
 Prior to event, generate the sequence table by running: `./sequence_table.R`

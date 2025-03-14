@@ -1,5 +1,3 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.2i2c.mybinder.org/user/uccombo-phylogenetics-hhi5aq9x/lab)
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCCOMBO/Phylogenetics/HEAD)
 
 Instructions: 
